@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #000;
+    color: #fff;
+    overflow: hidden;
+}
+
+#globeViz {
+    width: 100vw;
+    height: 100vh;
+}
+
+.html-element {
+    position: relative;
+}
+
+.tooltip {
+    position: absolute;
+    bottom: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    visibility: hidden; /* Nascosto di default */
+    opacity: 0;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    z-index: 10;
+    text-align: left; 
+    white-space: nowrap; /* Il contenitore principale non va a capo */
+}
+
+.tooltip-content {
+    display: inline-block; /* Permette al contenuto di definire la larghezza */
+    text-align: left;
+}
+
+.tooltip b {
+    font-size: 15px;
+    color: #64b5f6;
+}
+
+.tooltip i {
+    color: #bdbdbd;
+}
+
+.tooltip small {
+    color: #9e9e9e;
+}
+
+.tooltip-description {
+    font-size: 13px;
+    color: #e0e0e0;
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 1px solid #444;
+    white-space: normal;   /* Solo la descrizione può andare a capo */
+    word-wrap: break-word;
+    max-width: 350px;      /* Limita la larghezza massima della descrizione */
+}
+
+.cluster-marker {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(76, 175, 80, 0.9);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 14px;
+    border: 2px solid white;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.spider-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(0, 0); /* Posizione iniziale al centro */
+    transition: transform 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28); /* Transizione elastica */
+}
+
+.spider-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1px;
+    height: 1px;
+}
+
+.spider-item img {
+    transition: transform 0.2s ease-in-out;
+}
+
+.spider-item:hover img {
+    transform: scale(1.3);
+}
+
+/* Stili per il News Ticker */
+#news-ticker-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    z-index: 1000;
+    border-top: 1px solid #444;
+}
+
+#ticker-logo {
+    height: 30px;
+    margin-right: 15px;
+}
+
+.ticker-wrap {
+    flex: 1;
+    overflow: hidden;
+    height: 30px;
+    line-height: 30px;
+}
+
+.ticker {
+    display: inline-block;
+    white-space: nowrap;
+    padding-right: 100%;
+    /* Aumentata la durata per rallentare lo scorrimento */
+    animation: ticker-scroll 500s linear infinite;
+}
+
+.ticker:hover {
+    animation-play-state: paused;
+}
+
+.ticker-item {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 40px; /* Spazio tra le notizie */
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.ticker-item:hover {
+    color: #64b5f6; /* Colore al passaggio del mouse */
+    text-decoration: underline;
+}
+
+.ticker-icon {
+    height: 20px; /* Adatta l'altezza dell'icona */
+    margin-right: 10px; /* Spazio tra icona e titolo */
+    filter: drop-shadow(0 0 1px white);
+}
+
+@keyframes ticker-scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
