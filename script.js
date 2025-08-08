@@ -8,7 +8,7 @@ const world = Globe()
 
 // URL delle risorse
 const COUNTRIES_URL = 'https://raw.githubusercontent.com/vasturiano/globe.gl/master/example/datasets/ne_110m_admin_0_countries.geojson';
-const MANIFEST_URL = './public/news_manifest.json';
+const MANIFEST_URL = 'https://raw.githubusercontent.com/bbnss/GloboNews/main/public/news_manifest.json';
 
 let openCluster = null;
 
@@ -65,7 +65,13 @@ const loadAndProcessData = async () => {
             fetch(MANIFEST_URL).then(res => res.json())
         ]);
 
-        const newsPromises = manifest.map(newsFile => fetch(`./public/${newsFile}`).then(res => res.json()));
+        const GITHUB_RAW_URL_BASE = 'https://raw.githubusercontent.com/bbnss/GloboNews/main/public/';
+        const newsPromises = manifest.map(newsFile => fetch(`${GITHUB_RAW_URL_BASE}${newsFile}`).then(res => {
+            if (!res.ok) {
+                throw new Error(`Failed to fetch ${newsFile}: ${res.statusText}`);
+            }
+            return res.json();
+        }));
         const newsArrays = await Promise.all(newsPromises);
         const allNews = newsArrays.flat();
 
