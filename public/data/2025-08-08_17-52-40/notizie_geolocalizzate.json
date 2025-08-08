@@ -1,0 +1,22 @@
+[
+  {
+    "lat": 40.7127281,
+    "lon": -74.0060152,
+    "title": "Italiani a New York",
+    "link": "https://video.corriere.it/esteri/oriente-occidente/italiani-a-new-york/687362bf-a21a-4b56-9742-e50dddd99xlk",
+    "source": "Il corriere",
+    "timestamp": "2025-08-08 15:35:54",
+    "icon_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Globe%20showing%20europe-africa/3D/globe_showing_europe-africa_3d.png",
+    "description": "Il mio ritorno alla realtà"
+  },
+  {
+    "lat": 39.7837304,
+    "lon": -100.445882,
+    "title": "Il teorico dei dazi nominato da Trump alla Fed: un segnale per il dollaro",
+    "link": "https://www.corriere.it/oriente-occidente-federico-rampini/25_agosto_08/teorico-dazi-miran-nominato-trump-fed-dollaro-021f8526-86e6-4a9d-a484-a65326f67xlk.shtml",
+    "source": "Il corriere",
+    "timestamp": "2025-08-08 14:51:17",
+    "icon_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Dollar%20banknote/3D/dollar_banknote_3d.png",
+    "description": "Stephen Miran è stato spostato dal presidente Usa in un ruolo più strategico: ora l'economista occupa un seggio vacante tra i governatori della Federa"
+  }
+]
