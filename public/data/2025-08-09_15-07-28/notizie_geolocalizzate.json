@@ -1,0 +1,42 @@
+[
+  {
+    "lat": 38.8950368,
+    "lon": -77.0365427,
+    "title": "Trump sull'incontro con Putin: «Zelensky deve prepararsi a firmare qualcosa»",
+    "link": "https://video.corriere.it/esteri/trump-sull-incontro-con-putin-zelensky-deve-prepararsi-a-firmare-qualcosa-/8793dc02-4c5a-4a06-8346-c60d9a153xlk",
+    "source": "Il corriere",
+    "timestamp": "2025-08-09 10:06:37",
+    "icon_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Handshake/3D/handshake_3d.png",
+    "description": "Lo ha detto il presidente americano parlando con i giornalisti alla Casa Bianca"
+  },
+  {
+    "lat": 61.2163129,
+    "lon": -149.894852,
+    "title": "Zelensky sul vertice Trump-Putin: «Decisioni prese senza di noi nascono morte, non cederemo il nostro territorio agli occupanti»",
+    "link": "https://video.corriere.it/esteri/zelensky-sul-vertice-trump-putin-decisioni-prese-senza-di-noi-nascono-morte-non-cederemo-il-nostro-territorio-all-invasore-/2217c522-1b85-4f5c-8cb2-932d9ed2exlk",
+    "source": "Il corriere",
+    "timestamp": "2025-08-09 08:20:51",
+    "icon_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Information/3D/information_3d.png",
+    "description": "Il presidente ucraino commenta così l'incontro previsto in Alaska"
+  },
+  {
+    "lat": 48.0158753,
+    "lon": 37.8013407,
+    "title": "Il Donbass, la linea del fronte e la Crimea: quali sono i nodi di un possibile accordo tra Mosca e Kiev",
+    "link": "https://www.corriere.it/esteri/25_agosto_09/il-donbass-la-linea-del-fronte-e-la-crimea-quali-sono-i-nodi-di-un-possibile-accordo-tra-mosca-e-kiev-9c713aaa-5578-4ea4-ad17-f3373a686xlk.shtml",
+    "source": "Il corriere",
+    "timestamp": "2025-08-09 08:15:34",
+    "icon_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Fire/3D/fire_3d.png",
+    "description": "A Mosca manca da conquistare il 25 per cento del Donetsk, inoltre il Cremlino sta accumulando droni e missili e sembra determinato a raggiungere altri"
+  },
+  {
+    "lat": 34.6635923,
+    "lon": 129.4387171,
+    "title": "A 80 anni dal lancio della bomba atomica su Nagasaki, il Giappone ricorda le 70mila vittime dell'attacco degli Stati Uniti",
+    "link": "https://video.corriere.it/esteri/a-80-anni-dal-lancio-della-bomba-atomica-su-nagasaki-il-giappone-ricorda-le-70mila-vittime-dell-attacco-degli-stati-uniti/c78ae8df-9d5d-4a0b-87ae-6eea1d586xlk",
+    "source": "Il corriere",
+    "timestamp": "2025-08-09 08:06:04",
+    "icon_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Bomb/3D/bomb_3d.png",
+    "description": "Alla commemorazione un minuto di silenzio e colombe liberate in cielo"
+  }
+]
