@@ -1,0 +1,52 @@
+[
+  {
+    "lat": 31.5061841,
+    "lon": 34.4625473,
+    "title": "L'ultimo video ripreso dal giornalista palestinese Al Sharif ucciso a Gaza City",
+    "link": "https://video.corriere.it/esteri/l-ultimo-video-ripreso-dal-giornalista-palestinese-al-sharif-ucciso-a-gaza-city/1ebb7e35-7cf3-4316-a2e2-d561673b4xlk",
+    "source": "Il corriere",
+    "timestamp": "2025-08-11 17:35:19",
+    "icon_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Bomb/3D/bomb_3d.png",
+    "description": "Nelle immagini il lancio dei missili uno dei quali ha colpito la tenda dei giornalisti di Al Jazeera"
+  },
+  {
+    "lat": 40.4416941,
+    "lon": -79.9900861,
+    "title": "Usa, esplosione nell'acciaieria U.S Steel vicino Pittsburgh: diversi feriti",
+    "link": "https://www.corriere.it/esteri/25_agosto_11/usa-esplosione-acciaieria-u-s-steel-39ccbba0-6e97-4531-b1fe-620b592d0xlk.shtml",
+    "source": "Il corriere",
+    "timestamp": "2025-08-11 16:38:49",
+    "icon_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Fire/3D/fire_3d.png",
+    "description": "L'incendio è divampato alle 10.51 (ora locale) nell'impianto per ottenere il coke mediante la distillazione del carbon fossile"
+  },
+  {
+    "lat": 37.7181574,
+    "lon": -122.4298312,
+    "title": "Ucraina, la 'gaffe' di Trump: «Venerdì andrò in Russia a vedere Putin»",
+    "link": "https://video.corriere.it/esteri/ucraina-la-gaffe-di-trump-venerdi-andro-in-russia-a-vedere-putin-/ac6b4e69-b3e8-403b-9d83-c2794e9bdxlk",
+    "source": "Il corriere",
+    "timestamp": "2025-08-11 16:20:27",
+    "icon_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Newspaper/3D/newspaper_3d.png",
+    "description": "Il tycoon ha parlato in conferenza delle nuove misure contro la criminalità nella capitale"
+  },
+  {
+    "lat": 46.603354,
+    "lon": 1.8883335,
+    "title": "«Nicolas che paga», cos'è il nuovo movimento di estrema destra che minaccia di bloccare la Francia per la finanziaria: «Appuntamento al 10 settembre»",
+    "link": "https://www.corriere.it/esteri/25_agosto_11/nicolas-che-paga-nuovo-movimento-estrema-destra-blocca-francia-10-settembre-821685f7-9856-472a-b90d-22f0fbb68xlk.shtml",
+    "source": "Il corriere",
+    "timestamp": "2025-08-11 15:21:11",
+    "icon_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Fleur-de-lis/3D/fleur-de-lis_3d.png",
+    "description": "Lo slogan nato in Rete e rilanciato in Parlamento riassume il malcontento popolare (e populista) su tagli e tasse. E adesso preoccupa il governo"
+  },
+  {
+    "lat": 40.17396,
+    "lon": -80.2461714,
+    "title": "Guardia nazionale contro i criminali: «È la liberazione di Washington»",
+    "link": "https://www.corriere.it/esteri/25_agosto_11/trump-schiera-la-guardia-nazionale-a-washington-e-tempo-di-ristabilire-la-legge-e-l-ordine-5970179f-7f5c-43d2-be71-1ff8c68b1xlk.shtml",
+    "source": "Il corriere",
+    "timestamp": "2025-08-11 15:14:37",
+    "icon_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Newspaper/3D/newspaper_3d.png",
+    "description": "Trump manda 500 agenti federali e 800 riservisti: «faranno tutto quello che diavolo vogliono»"
+  }
+]
