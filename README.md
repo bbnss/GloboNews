@@ -72,4 +72,5 @@ Questo progetto è stato sviluppato per funzionare **completamente con un LLM lo
 ## 🌐 Esempio Live
 
 È disponibile una demo live del progetto.
-bbnss.github.io/GloboNews/
+[GloboNews](https://bbnss.github.io/GloboNews/)
+
