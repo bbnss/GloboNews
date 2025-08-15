@@ -1,4 +1,4 @@
-# Progetto GloboNews 🇮🇹
+# Progetto GloboNews 
 
 GloboNews è un aggregatore di notizie sperimentale che utilizza l'intelligenza artificiale per analizzare, geolocalizzare e arricchire le notizie italiane con icone rappresentative. Il progetto è progettato per funzionare interamente con modelli linguistici locali (LLM).
 
@@ -65,7 +65,7 @@ Il sistema è suddiviso in due componenti principali:
     *   Visualizza le notizie su una mappa interattiva dell'Italia.
     *   Mostra le icone e i titoli, permettendo all'utente di esplorare le notizie geograficamente.
 
-## 🤖 LLM Locale: Gemma 2
+## 🤖 LLM Locale: Gemma 3
 
 Questo progetto è stato sviluppato per funzionare **completamente con un LLM locale**. Tutta l'analisi del testo, l'estrazione di parole chiave e la generazione di contenuti sono gestite da **Gemma 3**, garantendo che nessun dato venga inviato a servizi cloud esterni.
 
