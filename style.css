@@ -28,7 +28,7 @@ body {
     visibility: hidden; /* Nascosto di default */
     opacity: 0;
     transition: opacity 0.3s ease, visibility 0.3s ease;
-    z-index: 10;
+    z-index: 999; /* Aumentato per essere sempre in primo piano */
     text-align: left; 
     white-space: nowrap; /* Il contenitore principale non va a capo */
 }
@@ -60,6 +60,7 @@ body {
     white-space: normal;   /* Solo la descrizione può andare a capo */
     word-wrap: break-word;
     max-width: 350px;      /* Limita la larghezza massima della descrizione */
+    display: block; /* Assicura che la descrizione vada a capo */
 }
 
 .cluster-marker {
@@ -135,7 +136,7 @@ body {
     white-space: nowrap;
     padding-right: 100%;
     /* Aumentata la durata per rallentare lo scorrimento */
-    animation: ticker-scroll 500s linear infinite;
+    animation: ticker-scroll 800s linear infinite;
 }
 
 .ticker:hover {
