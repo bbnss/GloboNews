@@ -1,0 +1,5 @@
+"Il corriere": "https://www.corriere.it/dynamic-feed/rss/section/Esteri.xml",
+"Ansa Home": "https://www.ansa.it/sito/ansait_rss.xml",
+"Ansa Mondo": "https://www.ansa.it/sito/notizie/mondo/mondo_rss.xml",
+"Corriere Canadese": "https://www.corriere.ca/feed/",
+"La Voce di New York": "https://lavocedinewyork.com/feed/"

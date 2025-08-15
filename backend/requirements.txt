@@ -1,0 +1,5 @@
+requests
+chromadb
+tqdm
+feedparser
+beautifulsoup4
