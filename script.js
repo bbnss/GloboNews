@@ -75,11 +75,13 @@ const loadAndProcessData = async () => {
         const newsArrays = await Promise.all(newsPromises);
         const allNews = newsArrays.flat();
 
-        // Filtra le notizie per mantenere solo quelle delle ultime 48 ore
-        const fortyEightHoursAgo = new Date(Date.now() - 48 * 60 * 60 * 1000);
-        const recentNews = allNews.filter(news => new Date(news.timestamp) > fortyEightHoursAgo);
+        // Ordina tutte le notizie dalla più recente alla meno recente
+        const sortedNews = allNews.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
         
-        console.log(`Trovate ${allNews.length} notizie totali, ${recentNews.length} sono delle ultime 48 ore.`);
+        // Prendi le ultime 100 notizie
+        const recentNews = sortedNews.slice(0, 100);
+        
+        console.log(`Trovate ${allNews.length} notizie totali, mostrando le ultime 100.`);
 
         populateTicker(recentNews);
 
@@ -151,6 +153,7 @@ const loadAndProcessData = async () => {
                 el.onmouseover = () => {
                     el.style.zIndex = 100; // Porta l'elemento in primo piano
                     if (tooltip) {
+                        tooltip.style.zIndex = 999; // Assicura che il tooltip sia sopra tutto
                         tooltip.style.visibility = 'visible';
                         tooltip.style.opacity = 1;
                     }
@@ -159,6 +162,7 @@ const loadAndProcessData = async () => {
                 el.onmouseout = () => {
                     el.style.zIndex = 1; // Reimposta l'ordine
                     if (tooltip) {
+                        tooltip.style.zIndex = 10; // Reimposta z-index originale
                         tooltip.style.visibility = 'hidden';
                         tooltip.style.opacity = 0;
                     }
