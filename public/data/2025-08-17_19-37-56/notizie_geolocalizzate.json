@@ -1,0 +1,42 @@
+[
+  {
+    "lat": -10.3333333,
+    "lon": -53.2,
+    "title": "Brasile, Bolsonaro esce dai domiciliari per visite mediche",
+    "link": "https://video.corriere.it/esteri/brasile-bolsonaro-esce-dai-domiciliari-per-visite-mediche/9ba51967-2c5c-4a77-83ea-e85c3c157xlk",
+    "source": "Il corriere",
+    "timestamp": "2025-08-17 12:23:56",
+    "icon_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Cancer/3D/cancer_3d.png",
+    "description": "L'ex presidente è sotto processo per il presunto tentato colpo di Stato del 2023"
+  },
+  {
+    "lat": 39.7837304,
+    "lon": -100.445882,
+    "title": "L'uragano Erin diventa più potente, i fulmini sull'Atlantico visti dal satellite: le immagini",
+    "link": "https://video.corriere.it/esteri/l-uragano-erin-diventa-piu-potente-i-fulmini-sull-atlantico-visti-dal-satellite-le-immagini/660d1cb2-14c3-40b2-9c32-49a021ebfxlk",
+    "source": "Il corriere",
+    "timestamp": "2025-08-17 07:11:33",
+    "icon_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Satellite/3D/satellite_3d.png",
+    "description": "Ha già raggiunto la categoria 2, con venti fino a 160 km/h"
+  },
+  {
+    "lat": 61.2163129,
+    "lon": -149.894852,
+    "title": "L'Europa spiazzata dal vertice in Alaska prova a rimanere unita. Ed è «costretta» a fidarsi di Donald",
+    "link": "https://www.corriere.it/esteri/25_agosto_17/europa-spiazzata-vertice-alaska-be99443e-58ac-4b3b-a665-562da4850xlk.shtml",
+    "source": "Il corriere",
+    "timestamp": "2025-08-17 05:36:39",
+    "icon_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Globe%20showing%20europe-africa/3D/globe_showing_europe-africa_3d.png",
+    "description": "Contatti tra le cancellerie: il primo  dilemma è se e come andare a Washington per l'incontro di lunedì tra Zelensky e Trump. La cautela del leader fr"
+  },
+  {
+    "lat": 61.2163129,
+    "lon": -149.894852,
+    "title": "Putin: «Vicini alla vittoria in Ucraina». E ora studia il prossimo passo",
+    "link": "https://www.corriere.it/esteri/25_agosto_17/putin-vicini-vittoria-ucraina-ae4ed9f5-b1f8-42bd-a19c-380dec0c9xlk.shtml",
+    "source": "Il corriere",
+    "timestamp": "2025-08-17 05:14:39",
+    "icon_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Newspaper/3D/newspaper_3d.png",
+    "description": "Il leader russo accolto in patria come un eroe dopo il vertice con Trump ad Anchorage, in Alaska. Blogger militari e tv parlano di «lezione magistrale"
+  }
+]
