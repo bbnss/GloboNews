@@ -1,0 +1,82 @@
+[
+  {
+    "lat": 31.9265989,
+    "lon": 34.7960398,
+    "title": "Al via sciopero generale a Tel Aviv, bloccate autostrade",
+    "link": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2025/08/17/al-via-sciopero-generale-a-tel-aviv-bloccate-autostrade_b51c5f1a-8e8f-4d00-9758-7ed659c3acbe.html",
+    "source": "Ansa Mondo",
+    "timestamp": "2025-08-17 05:57:01",
+    "icon_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Bow%20and%20arrow/3D/bow_and_arrow_3d.png",
+    "description": "Atteso un milione di persone, per fine guerra e ostaggi liberi"
+  },
+  {
+    "lat": 48.6726509,
+    "lon": 116.8185708,
+    "title": "Cina, alluvione improvvisa causa 8 morti e 4 dispersi",
+    "link": "https://www.ansa.it/sito/notizie/mondo/asia/2025/08/17/cina-alluvione-improvvisa-causa-8-morti-e-4-dispersi_ae723e19-6d36-4b47-b8b1-0ecbf009df3b.html",
+    "source": "Ansa Mondo",
+    "timestamp": "2025-08-17 05:30:25",
+    "icon_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Ambulance/3D/ambulance_3d.png",
+    "description": "E' accaduto sabato nella Mongolia interna, attivati i soccorsi"
+  },
+  {
+    "lat": 49.4871968,
+    "lon": 31.2718321,
+    "title": "Axios, Trump vuole vertice con Putin e Zelensky venerdì",
+    "link": "https://www.ansa.it/sito/notizie/mondo/europa/2025/08/16/axios-trump-vuole-vertice-con-putin-e-zelensky-venerdi_e5546f4a-c7f1-447b-b00e-26172f87e079.html",
+    "source": "Ansa Mondo",
+    "timestamp": "2025-08-16 21:20:11",
+    "icon_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Handshake/3D/handshake_3d.png",
+    "description": "Il 22 agosto"
+  },
+  {
+    "lat": -10.3333333,
+    "lon": -53.2,
+    "title": "Verso la Cop30,le sfide sul clima tra governance e finanziamenti",
+    "link": "https://www.ansa.it/sito/notizie/mondo/americalatina/2025/08/16/verso-la-cop30le-sfide-sul-clima-tra-governance-e-finanziamenti_c9210e9c-d09f-4285-8f73-4009315a0f0a.html",
+    "source": "Ansa Mondo",
+    "timestamp": "2025-08-16 18:13:47",
+    "icon_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Cloud%20with%20lightning%20and%20rain/3D/cloud_with_lightning_and_rain_3d.png",
+    "description": "Settori pubblico, privato e società civile a confronto"
+  },
+  {
+    "lat": -22.9110137,
+    "lon": -43.2093727,
+    "title": "Rio de Janeiro, arriva il supercomputer di Nvidia per l'Ai",
+    "link": "https://www.ansa.it/sito/notizie/mondo/americalatina/2025/08/16/rio-de-janeiro-arriva-il-supercomputer-di-nvidia-per-lai_2057b774-02ff-42ab-a0e6-1d6583021d3f.html",
+    "source": "Ansa Mondo",
+    "timestamp": "2025-08-16 18:10:36",
+    "icon_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Desktop%20computer/3D/desktop_computer_3d.png",
+    "description": "Elea Data Centers con Oracle per il progetto di un hub globale"
+  },
+  {
+    "lat": -16.5315613,
+    "lon": -68.1940776,
+    "title": "La Bolivia in crisi verso la svolta conservatrice",
+    "link": "https://www.ansa.it/sito/notizie/mondo/americalatina/2025/08/16/la-bolivia-in-crisi-verso-la-svolta-conservatrice_8d5eea2d-5481-472c-8b64-e3a0269b352a.html",
+    "source": "Ansa Mondo",
+    "timestamp": "2025-08-16 17:26:22",
+    "icon_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Bug/3D/bug_3d.png",
+    "description": "Sinistra lacerata, Morales guida la strategia delle schede nulle"
+  },
+  {
+    "lat": 39.7837304,
+    "lon": -100.445882,
+    "title": "L'uragano Erin si rafforza, è di categoria 5",
+    "link": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2025/08/16/luragano-erin-si-rafforza-e-di-categoria-5_0ebc37e1-2327-439e-8258-f0bc3985c44c.html",
+    "source": "Ansa Mondo",
+    "timestamp": "2025-08-16 15:43:14",
+    "icon_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Cloud%20with%20lightning%20and%20rain/3D/cloud_with_lightning_and_rain_3d.png",
+    "description": "Il primo della stagione nell'Atlantico, viaggia verso i Caraibi"
+  },
+  {
+    "lat": 48.0158753,
+    "lon": 37.8013407,
+    "title": "'Putin ha chiesto a Trump il ritiro di Kiev dal Donetsk'",
+    "link": "https://www.ansa.it/sito/notizie/mondo/europa/2025/08/16/putin-ha-chiesto-a-trump-il-ritiro-di-kiev-dal-donetsk_2e34e0aa-29b6-441a-bd93-50466ed99b08.html",
+    "source": "Ansa Mondo",
+    "timestamp": "2025-08-16 15:40:13",
+    "icon_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Information/3D/information_3d.png",
+    "description": "Ft, la richiesta in cambio del congelamento del resto del fronte"
+  }
+]
