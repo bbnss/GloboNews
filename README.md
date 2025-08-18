@@ -66,7 +66,7 @@ Il sistema è suddiviso in due componenti principali:
 
 ## 🤖 LLM Locale: Gemma 3
 
-Questo progetto è stato sviluppato per funzionare **completamente con un LLM locale**. Tutta l'analisi del testo, l'estrazione di parole chiave e la generazione di contenuti sono gestite da **gemma3n:e2b**, garantendo che nessun dato venga inviato a servizi cloud esterni.
+Questo progetto è stato sviluppato per funzionare **completamente con un LLM locale**. Tutta l'analisi del testo, l'estrazione di parole chiave e la generazione di contenuti sono gestite da **gemma3n:e2b**.
 
 ## 🌐 Esempio Live
 
