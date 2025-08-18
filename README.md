@@ -2,6 +2,9 @@
 
 GloboNews è un aggregatore di notizie sperimentale che utilizza l'intelligenza artificiale per analizzare, geolocalizzare e arricchire le notizie italiane con icone rappresentative. Il progetto è progettato per funzionare interamente con modelli linguistici locali (LLM).
 
+## Immagine
+<img src="public/GloboNews.png" alt="Descrizione dell'immagine" style="max-width: 100%; height: auto;"> 
+
 
 ## Come usarlo
 
