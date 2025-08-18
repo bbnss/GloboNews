@@ -1,14 +1,10 @@
 # Progetto GloboNews 
 
-GloboNews è un aggregatore di notizie sperimentale che utilizza l'intelligenza artificiale per analizzare, geolocalizzare e arricchire le notizie italiane con icone rappresentative. Il progetto è progettato per funzionare interamente con modelli linguistici locali (LLM).
+GloboNews è un aggregatore di notizie sperimentale che utilizza l'intelligenza artificiale locale per analizzare, geolocalizzare e arricchire le notizie italiane con icone rappresentative. Il progetto è progettato per funzionare interamente con modelli linguistici locali (LLM).
 
 ## Immagine
 <img src="public/GloboNews.png" alt="Descrizione dell'immagine" style="max-width: 100%; height: auto;"> 
 
-
-## Come usarlo
-
-Segui questi passaggi per avviare il progetto sul tuo computer.
 
 ### 1. Scarica il Repository
 
@@ -58,8 +54,8 @@ Apri il tuo browser e visita `http://localhost:8000` per vedere l'applicazione i
 Il sistema è suddiviso in due componenti principali:
 
 *   **Backend**: Un insieme di script Python che si occupano di:
-    *   Scaricare le ultime notizie da varie fonti italiane.
-    *   Analizzare ogni articolo per estrarre parole chiave, geolocalizzare la notizia e generare un titolo accattivante.
+    *   Scaricare le ultime notizie che trova nel file fonti.txt.
+    *   Analizzare ogni articolo per estrarre parole chiave e geolocalizzare la notizia.
     *   Selezionare l'icona più adatta a rappresentare il contenuto della notizia.
     *   Aggiornare un file `news_manifest.json` che verrà letto dal frontend.
 
@@ -70,7 +66,7 @@ Il sistema è suddiviso in due componenti principali:
 
 ## 🤖 LLM Locale: Gemma 3
 
-Questo progetto è stato sviluppato per funzionare **completamente con un LLM locale**. Tutta l'analisi del testo, l'estrazione di parole chiave e la generazione di contenuti sono gestite da **Gemma 3**, garantendo che nessun dato venga inviato a servizi cloud esterni.
+Questo progetto è stato sviluppato per funzionare **completamente con un LLM locale**. Tutta l'analisi del testo, l'estrazione di parole chiave e la generazione di contenuti sono gestite da **gemma3n:e2b**, garantendo che nessun dato venga inviato a servizi cloud esterni.
 
 ## 🌐 Esempio Live
 
